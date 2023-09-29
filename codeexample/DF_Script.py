@@ -26,7 +26,7 @@ def data_generator(PID):
                               out_feature_class="Parcel", 
                               where_clause=PIDexpression)
 
-        #Buffer selected parcel
+        #Buffer selected parcel by 10 meters
         print("Buffering parcel")
         arcpy.analysis.Buffer(in_features="Parcel",
                                   out_feature_class="Parcel_buffer",
@@ -182,13 +182,13 @@ def DF_function(PID,DF_num):
     tempdir = r"C:\temp\DFtemp"
 
     try: 
-        os.mkdir(temp)
+        os.mkdir(temp) #attempt to create c:\temp
     except OSError as error: #in case directory already exists
         #print(error)
         print('Temp exists')
 
     try:
-        os.mkdir(tempdir) 
+        os.mkdir(tempdir) #create a new subdirectory for this script
     except OSError as error: 
         #print(error)
         print('DFtemp exists, cleaning up')
@@ -224,7 +224,7 @@ def DF_function(PID,DF_num):
 
     shutil.rmtree(tempdir, onerror=remove_readonly) #remove folder
 
-if __name__ == '__main__': #run only if not in module
+if __name__ == '__main__': #run only if not in module (i.e. if not run from batch.py)
     #set up error logging
     logging.basicConfig(filename=r'[file/server location redacted]')
 
