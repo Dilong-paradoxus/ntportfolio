@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head><meta
+charset="utf-8"><meta
+name="viewport" content="width=device-width, initial-scale=1"><title>GIS Code Example</title><style type="text/css">body{margin:40px
+auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0
+10px}h1,h2,h3{line-height:1.2}</style></head><body><header><h1>Cats</h1>
+<aside>Click links below to access code examples</aside></header>
+  <h2>Batch.py (handles setup)</h2>
+    <p><a href="/codeexample/batch.py">Batch.py</a></p>
+  <h2>DF_Script.py (Runs geoprocessing and other main code)</h2>
+    <p><a href="/codeexample/DF_Script.py">Batch.py</a></p>
+
+  <h3>End</h3>
+    <a href="/index.html">Back to main page</a>
