@@ -5,7 +5,7 @@ auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0
 10px}h1,h2,h3{line-height:1.2}</style></head><body><header><h1>GIS Code Examples</h1>
 <aside>Click links below to download python code examples</aside></header>
   <h2>Batch.py (handles setup/user input)</h2>
-    <p><a href="/codeexample/batch.py">Batch.py</a></p>
+    <p><a href="/codeexample/batch.py">batch.py</a></p>
   <h2>DF_Script.py (Runs geoprocessing and other main code, exports maps)</h2>
     <p><a href="/codeexample/DF_Script.py">DF_Script.py</a></p>
   <h2>Generated map example</h2>
